@@ -3,10 +3,7 @@ export const Route = createFileRoute({
 })
 
 function RouteComponent() {
-  return <div className="page">
-
-    <main className="content">
-
+  return <main className="flex-grow flex justify-center items-center p-4">
+asdf
     </main>
-  </div>
 }
