@@ -5,7 +5,7 @@ export const Route = createFileRoute({
 });
 
 const API_URL = "https://api.chucknorris.io/jokes/random?category=dev";
-const FETCH_DELAY = 20;
+const FETCH_DELAY = 15;
 
 function JokePage() {
   const [lastFetched, setLastFetched] = useState<string>("");
