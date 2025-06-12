@@ -1,5 +1,11 @@
 # Peplink Front-End developer task
 
+Install packages and run the application:
+```
+npm i
+npm run dev
+```
+
 ### 1st page:
 - List of users (name, occupation, gender, age)
 - Locally saved data in LocalStorage
