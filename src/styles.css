@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+@layer base
+{
+    progress{
+        @apply [&::-webkit-progress-bar]:rounded-sm [&::-webkit-progress-value]:rounded-sm  [&::-webkit-progress-bar]:bg-slate-300 [&::-webkit-progress-value]:bg-blue-400 [&::-moz-progress-bar]:bg-blue-400
+    }
+}
